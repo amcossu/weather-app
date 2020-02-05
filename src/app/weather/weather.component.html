@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="text-center my-4">Search for Weather:</h3>
+                
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Please input a Location" [(ngModel)]="request.town"/>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-success btn-md" (click)="sendToAPIXU()">
+            <i class="material-icons">search</i>
+          </button>
+        </div>
+      
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-center my-4">Weather Details:</h3>
+        <p class="text-center">
+          Observation time: {{ this.response.observation_time}}
+        </p>
+        <p class="text-center">
+          Temperature in Degrees Celsius: <span *ngIf="response.temperature">{{ this.response.temperature }} °C</span>
+        </p>
+        <p class="text-center">
+          Feels like in Degrees Celsius: <span *ngIf="response.feelslike">{{ this.response.feelslike }} °C</span>
+        </p>
+        <p class="text-center">
+          Location Searched: 
+          <span *ngIf="response.name"> {{ response.name }}, {{ response.country }}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
