@@ -3,8 +3,8 @@
 Project under construction.
 
 - First version features 
-  Interface in english
-  Retrieved data : time of the research, searched localisation (city and country), temperature and "feels like" temperature in degrees Celsius.
+-- Interface in english
+--  Retrieved data : time of the research, searched localisation (city and country), temperature and "feels like" temperature in degrees Celsius.
 
 ## Built With
 
