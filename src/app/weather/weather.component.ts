@@ -26,7 +26,6 @@ export class WeatherComponent implements OnInit {
       this.response.observation_time = data['current'].observation_time;
       this.response.temperature = data['current'].temperature;
       this.response.feelslike = data['current'].feelslike;
-      this.response.weather_code = data['current'].weather_code;
       this.response.name = data['location'].name;
       this.response.country = data['location'].country;
       console.log(data);

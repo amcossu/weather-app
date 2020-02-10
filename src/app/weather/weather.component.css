@@ -33,11 +33,13 @@
 	text-align: center;
 	display: block;
 	font-weight: 300;
-	color: rgb(255, 255, 255);
 	padding: 20px 0 0;
 }
+.temp.feelsLike{
+    font-size: 20px;
+    padding: 0 0 20px 0;
+}
 .location{
-	color: rgb(255, 255, 255);
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;

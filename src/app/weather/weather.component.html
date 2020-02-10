@@ -16,8 +16,9 @@
       <div class="col-md-6 offset-md-3">
         <div class="weatherCard col-md-6 offset-md-3">
           <div class="">
-            <span class="temp"> <span *ngIf="response.temperature">{{ this.response.temperature }} °C</span></span>
-            <span class="location"><span *ngIf="response.name"> {{ response.name }}, {{ response.country }}</span></span>
+            <span class="temp" *ngIf="response.temperature">{{ this.response.temperature }} °C</span>
+            <span class="feelsLike temp" *ngIf="response.feelslike">Feels like {{ this.response.feelslike }} °C</span>
+            <span class="location" *ngIf="response.name">{{ response.name }}, {{ response.country }}</span>
           </div>
         </div>
       </div>
