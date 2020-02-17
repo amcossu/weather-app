@@ -8,11 +8,13 @@ import {allAppRoutes} from './routes';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ApixuService } from "./apixu.service";
+import { DateComponent } from './date/date.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeatherComponent
+    WeatherComponent,
+    DateComponent
   ],
   imports: [
     BrowserModule,

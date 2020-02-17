@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ApixuService } from "../apixu.service";
 import { WeatherRequest } from "../models/weatherRequest";
 import { WeatherResponse } from '../models/weatherResponse';
-import { } from 'material-design-icons';
+
 
 @Component({
   selector: 'app-weather',

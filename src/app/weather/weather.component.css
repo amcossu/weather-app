@@ -2,8 +2,12 @@
 .boxDown {
     padding-top: 150px;
 }
+
 .form-control{
-    min-height: 50px;
+	min-height: 50px;
+	width: 50%;
+	box-shadow: 0 4px 2px -2px gray;
+	border-style: none;
 }
 .weatherCard{
 	width: 400px;
@@ -32,20 +36,13 @@
 	font-size: 60px;
 	text-align: center;
 	display: block;
-	font-weight: 300;
-	padding: 20px 0 0;
+	font-weight: 400;
 }
 .temp.feelsLike{
     font-size: 20px;
     padding: 0 0 20px 0;
 }
-.location{
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 20px;
-	display: block;
-}
+
 .conditions{
 	font-family: weathericons;
 	font-size: 80px;
